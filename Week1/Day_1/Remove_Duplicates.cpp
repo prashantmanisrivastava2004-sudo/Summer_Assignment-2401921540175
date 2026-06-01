@@ -1,7 +1,7 @@
 class Solution {
 public:
     int removeDuplicates(vector<int> &nums){
-        
+
         //set count to 1 as initially we have set the pointer to the very first element.
         int count=1;
 
@@ -24,3 +24,6 @@ public:
         return count;
     }
 };
+
+//Time Complexity: O(n)
+//Space Complexity: O(1)
